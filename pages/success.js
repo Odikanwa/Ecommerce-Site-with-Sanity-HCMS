@@ -14,6 +14,9 @@ const Success = () => {
     setTotalPrice(0);
     setTotalQuantities(0);
     runFireworks();
+    setCartItems();
+    setTotalPrice();
+    setTotalQuantities();
   }, []);
 
   return (
