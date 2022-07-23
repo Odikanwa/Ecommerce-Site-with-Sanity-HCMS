@@ -7,9 +7,9 @@ body, * {
   box-sizing: border-box;
 
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 a {
   color: inherit;
@@ -31,6 +31,11 @@ width: 100%;
   justify-content: space-between;
   margin: 6px 18px;
   position: relative;
+}
+.oreegi{
+  font-size: 32px;
+  font-weight: 800;
+  color: #f02d34;
 }
 .marquee-text{
   font-size: 29px;
@@ -110,7 +115,7 @@ width: 100%;
 
 }
 .product-card:hover{
-  transform: scale(1.1,1.1)
+  transform: scale(1.1)
 }
 .product-image{
   border-radius: 15px;
@@ -249,7 +254,7 @@ text-align: end;
   /* top: -35%;
   left: 8%; */
   top: -25%;
-  left: 25%;
+  left: 35%;
 }
 .banner-desc .right{
   line-height: 1.4;
