@@ -15,7 +15,7 @@ const HeroBanner = ({ heroBanner }) => {
           <Image src={urlFor(heroBanner.image[0])} alt="headphones" className="hero-banner-image" />
          )
          } */}
-          <Image src={urlFor(heroBanner.image)} alt="product" className="hero-banner-image" unoptimized={true}/>
+          <img src={urlFor(heroBanner.image)} alt="product" className="hero-banner-image" />
        
         
 
