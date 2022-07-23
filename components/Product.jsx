@@ -14,7 +14,8 @@ const Product = ({ product: { image, name, slug, price } }) => {
             width={230}
             height={230}
             className="product-image"
-            alt = 'product'
+            alt = "product"
+            unoptimized={true}
           />
           <p className="product-name">{name}</p>
           <p className="product-price">${price}</p>
